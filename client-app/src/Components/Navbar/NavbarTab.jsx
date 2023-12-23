@@ -18,13 +18,19 @@ function NavbarTab() {
               </NavLink>
             </div>
             <div className="AllMatches">
-              <NavLink className={"matchestab3"}>Live Matches</NavLink>
+              <NavLink to={"/"} className={"matchestab3"}>
+                Live Matches
+              </NavLink>
             </div>
             <div className="AllMatches">
-              <NavLink className={"matchestab3"}>All Matches</NavLink>
+              <NavLink to={"/allMatches"} className={"matchestab3"}>
+                All Matches
+              </NavLink>
             </div>
             <div className="AllMatches">
-              <NavLink className={"matchestab3"}>Login</NavLink>
+              <NavLink to={"/login"} className={"matchestab3"}>
+                Login
+              </NavLink>
             </div>
             <div className="avatar">
               <Avatar />
