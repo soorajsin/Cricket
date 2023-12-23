@@ -5,3 +5,10 @@ export const currentMatchesList = () => {
           const url = `https://api.cricapi.com/v1/currentMatches?apikey=${API_KEY}&offset=0`;
           return url;
 }
+
+
+//all matches list
+export const allMatchesList=()=>{
+          const url=`https://api.cricapi.com/v1/matches?apikey=${API_KEY}&offset=0`;
+          return url;
+}
