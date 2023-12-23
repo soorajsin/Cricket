@@ -1,0 +1,72 @@
+* {
+          margin: 0;
+          padding: 0;
+}
+
+.navbarTab {
+          width: 100%;
+          height: 67px;
+          background-color: #1976d2;
+}
+
+.navbarTab .containerTab {
+          max-width: 1150px;
+          margin: 0 auto;
+          /* background-color: red; */
+          height: 67px;
+}
+
+.navbarTab .containerTab .allTab {
+          display: flex;
+          justify-content: space-between;
+}
+
+.navbarTab .containerTab .allTab .logo {
+          margin-top: auto;
+          margin-bottom: auto;
+}
+
+.navbarTab .containerTab .allTab .logo img {
+          width: 65px;
+          height: 65px;
+          transition: 0.3s ease;
+}
+
+.navbarTab .containerTab .allTab .logo img:hover {
+          text-shadow: 0 0 10px;
+          height: 66px;
+          width: 66px;
+}
+
+.navbarTab .containerTab .allTab .AllMatches {
+          margin-top: auto;
+          margin-bottom: auto;
+}
+
+.navbarTab .containerTab .allTab .AllMatches .matchestab3 {
+          text-decoration: none;
+          font-size: 30px;
+          color: #fff;
+          cursor: pointer;
+          transition: 0.3s ease;
+}
+
+.navbarTab .containerTab .allTab .AllMatches .matchestab3:hover {
+          transform: scale(1.06);
+          box-shadow: 0 0 10px;
+          padding: 20px;
+          border-radius: 20%;
+}
+
+.navbarTab .containerTab .allTab .avatar {
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-right: 10px;
+          cursor: pointer;
+          transition: 0.3s ease;
+}
+
+.navbarTab .containerTab .allTab .avatar:hover {
+          transform: scale(1.5);
+          text-shadow: 0 0 10px;
+}
